@@ -8,7 +8,9 @@ var students = [
   { id: 4, name: "alex",     age: 30 }
 ];
 
-students.sort((a,b) => a.name > b.name ).sort ((a, b) => {
+students
+.sort((a,b) => a.name > b.name )
+.sort ((a, b) => {
   if(a.name === b.name){
     return  b.age - a.age
   }
